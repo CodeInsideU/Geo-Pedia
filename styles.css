@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navbar {
+    justify-content: flex-end;
+    display: flex;
+    padding: 0px 48px;
+    background-color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+}
+
+.navbar__menu_container {
+    display: flex;
+    gap: 80px;
+}
+
+.dropbtn {
+    color: green;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgoldenrodyellow;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: darkkhaki;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: seagreen;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: black;
+}
+
+.link:hover {
+    color: black;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0px 5px 5px 0px#807b7b;
+}
+
+.img2 {
+    height: 340px;
+    width: 1535px;
+    justify-content: end;
+}
+
+.img1 {
+    padding-right: 30px;
+    height: 340px;
+    width: 264px;
+    background-color: rgb(104, 189, 196);
+}
+
+.container {
+    display: flex;
+    padding: 50px;
+    margin: 20px auto;
+    background: url(/Images/aboutimg.jpg);
+    width: 100%;
+    height: 400px;
+    box-shadow: 5px 5px 5px 5px#807b7b;
+}
+
+.about__us h3 {
+    text-align: center;
+    color: green;
+    font-style: italic;
+}
+
+.about__us {
+    gap: 10px;
+    text-align: left;
+}
+
+.about__us_content1 {
+    border: 1px solid #e0e0e0;
+    margin-bottom: 150px;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: lavenderblush;
+    transition: all 0.3s ease;
+}
+
+.about__us_content2 {
+    border: 1px solid #e0e0e0;
+    margin-top: 150px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: lavenderblush;
+    transition: all 0.3s ease;
+}
+
+/* .about__us_content1:hover {
+    transform: scale(1.03);
+}
+
+.about__us_content2:hover {
+    transform: scale(1.03);
+} */
+
+.heading1 {
+    text-align: center;
+    color: firebrick;
+}
+
+.container1 {
+    display: flex;
+    padding: 50px;
+    margin: 20px auto;
+    width: 93.5%;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    background-color: coral;
+}
+
+.explore__assam_card1 {
+    background: url(/Images/waterfalls.jpg);
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all ease-out 1s;
+}
+
+
+.explore__assam_card1 h1 {
+    margin-top: 150px;
+    font-size: 34px;
+    color: white;
+    text-shadow: 2px 2px 8px #323232;
+}
+
+.explore__assam_card1:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+
+.explore__assam_card2 {
+    background: url(/Images/hillstation.jpg);
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all ease-out 1s;
+}
+
+.explore__assam_card2:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.explore__assam_card2 h1 {
+    margin-top: 150px;
+    color: white;
+    font-size: 34px;
+    text-shadow: 2px 2px 8px #323232;
+}
+
+.explore__assam_card3 {
+    background: url(/Images/national-park.jpg);
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all ease-out 1s;
+}
+
+.explore__assam_card3:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.explore__assam_card3 h1 {
+    margin-top: 150px;
+    color: white;
+    font-size: 34px;
+    text-shadow: 2px 2px 8px #323232;
+}
+
+.container2 {
+    display: flex;
+    padding: 50px;
+    margin: 20px auto;
+    width: 93.5%;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    background-color: coral;
+}
+
+.explore__assam_card4 {
+    background: url(/Images/foodss.jpg);
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all ease-out 1s;
+}
+
+.explore__assam_card4:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.explore__assam_card4 h1 {
+    margin-top: 150px;
+    color: white;
+    font-size: 34px;
+    text-shadow: 2px 2px 8px #323232;
+}
+
+.explore__assam_card5 {
+    background: url(/Images/handicrafts.jpg);
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all ease-out 1s;
+}
+
+.explore__assam_card5:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.explore__assam_card5 h1 {
+    margin-top: 150px;
+    color: white;
+    font-size: 34px;
+    text-shadow: 2px 2px 8px #323232;
+}
+
+.explore__assam_card6 {
+    background: url(/Images/festivals.jpg);
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all ease-out 1s;
+}
+
+.explore__assam_card6:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.explore__assam_card6 h1 {
+    margin-top: 150px;
+    color: white;
+    font-size: 34px;
+    text-shadow: 2px 2px 8px #323232;
+}
+
+.container3 {
+    background: url(/Images/assambackground.jpg) no-repeat;
+    height: 439px;
+    width: 1300px;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+
+.end__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end__section_content1 {
+    margin: 60px;
+    padding: 40px;
+    height: 50%;
+    width: 50%;
+}
+
+.end__section_content2 {
+    margin: 60px;
+    padding: 40px;
+    height: 549px;
+    width: 477px;
+}
+
+.end__section_content1 h2 {
+    text-align: center;
+    color: firebrick;
+    text-shadow: 1px 1px 1px#323232;
+}
+
+.btn-blue {
+    background-color: aquamarine;
+    color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 600;
+    border-color: #e0e0e0;
+    cursor: pointer;
+    transition: all ease-out 1s;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.btn-blue:hover {
+    transform: scale(1.02);
+    background-color: aqua;
+}
+
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+.end__section_content2 iframe {
+    border-radius: 10px;
+}

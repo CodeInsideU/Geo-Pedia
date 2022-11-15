@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.navbar .heading{
+    font-style:italic;
+    font-size: 22px;
+    color:darkkhaki;
+}
+
+.hero__section {
+    background: url(/Images/india-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color:black;
+    min-height: 100vh;
+    box-shadow: 0px 5px #908e8e;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 16px 48px;
+}
+.navbar a {
+    text-decoration: none;
+    color:rosybrown;
+    font-size: 20px;
+}
+
+.navbar__menu_container {
+    display: flex;
+    gap: 20px;
+}
+
+.hero__section_container h1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 40px;
+    gap: 30px;
+    height: calc(94.5vh - 45px);
+    font-style: oblique;
+    color:saddlebrown;
+}
+
+.dropbtn {
+    color:rosybrown;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:cornsilk;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color:burlywood;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {color:black;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {color: brown;}
+
+.link:hover{
+    color: brown;
+}
+
